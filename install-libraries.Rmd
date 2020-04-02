@@ -53,6 +53,7 @@ Machine learning packages:
 
 ```{r echo=TRUE, warning=FALSE, message=FALSE, eval=FALSE}
 install_pkg("caret")
+install_pkg("e1071") ## seems to be missing
 install_pkg("lpSolve")
 install_pkg("randomForest")
 ```
@@ -134,6 +135,7 @@ install_pkg("tufte")
 The following is to generate a pdf version. The format can be customised by changing options at the top of the `index.Rmd` file.
 
 ```{r echo=TRUE, warning=FALSE, message=FALSE, eval=FALSE}
+## when prompted for Selection: 1
 bookdown::render_book("index.Rmd", output_format = "bookdown::pdf_book")
 ```
 

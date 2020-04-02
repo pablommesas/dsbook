@@ -53,7 +53,7 @@ rmd_files: [
   "ml/confusion-matrix.Rmd",
   "ml/conditionals.Rmd",
   "ml/case-study-2-or-7.Rmd",
-  "ml/smoothing.Rmd",
+  #"ml/smoothing.Rmd", label: loess-multi-span-animation (with options) - Error: Column name `span` must not be duplicated.
   "ml/cross-validation.Rmd",
   "ml/caret.Rmd",
   "ml/regression.Rmd",
